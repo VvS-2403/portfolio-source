@@ -1,0 +1,30 @@
+{
+  "name": "Vismay Vinayak Shanbhag",
+  "degree": "B.E. Mathematics and Computing",
+  "institution": "BITS Pilani",
+  "campus": "K.K. Birla Goa Campus",
+  "expectedGraduation": "2028",
+  "cgpa": "8.73",
+  "summary": "I am interested in data-driven problem solving, particularly in data science, machine learning, and retrieval-augmented generation (RAG) systems. I enjoy building end-to-end projects and experimenting with modern AI techniques while gaining hands-on experience with real-world applications.",
+  "interests": [
+    "Machine Learning",
+    "Retrieval-Augmented Generation",
+    "Data Science",
+    "Full-Stack AI Systems",
+    "Causal Inference"
+  ],
+  "coursework": [
+    "Data Structures and Algorithms",
+    "Object-Oriented Programming",
+    "Machine Learning",
+    "Linear Algebra and Applications",
+    "Probability and Statistics",
+    "Numerical Optimization"
+  ],
+  "contact": {
+    "email": "vismay@example.com",
+    "linkedin": "https://linkedin.com/in/vismay-shanbhag",
+    "github": "https://github.com/vismayshanbhag",
+    "phone": ""
+  }
+}

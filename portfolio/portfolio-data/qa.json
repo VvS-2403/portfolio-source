@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Tell me about yourself",
+    "answer": "",
+    "category": "general"
+  },
+  {
+    "question": "Explain your transformer project",
+    "answer": "",
+    "category": "projects"
+  },
+  {
+    "question": "What extracurricular activities have you participated in?",
+    "answer": "",
+    "category": "extracurricular"
+  },
+  {
+    "question": "Why are you interested in AI?",
+    "answer": "",
+    "category": "motivation"
+  },
+  {
+    "question": "What are your future goals?",
+    "answer": "",
+    "category": "goals"
+  },
+  {
+    "question": "What technologies do you work with?",
+    "answer": "",
+    "category": "skills"
+  },
+  {
+    "question": "Describe your causal uplift modeling project",
+    "answer": "",
+    "category": "projects"
+  }
+]
