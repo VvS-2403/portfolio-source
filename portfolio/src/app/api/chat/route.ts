@@ -285,11 +285,11 @@ export async function POST(req: NextRequest) {
     const countStr = cookieStore.get('chat_count_v2')?.value || '0';
     const count = parseInt(countStr, 10);
 
-    if (count >= 10) {
+    if (count >= 1000) {
       return NextResponse.json({
         message: {
           role: 'assistant',
-          content: "Since credits are limited, I can only respond up to 10 times per user in a day. You've reached your limit! For further conversations, please contact the owner directly.",
+          content: "Since credits are limited, I can only respond up to 1000 times per user in a day. You've reached your limit! For further conversations, please contact the owner directly.",
         },
         experience: {
           suggestions: [],
