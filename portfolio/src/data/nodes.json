@@ -1,0 +1,508 @@
+{
+  "nodes": [
+    {
+      "id": "vismay-vinayak-shanbhag",
+      "name": "Vismay Vinayak Shanbhag",
+      "type": "person",
+      "notes": "Mathematics and Computing undergraduate at BITS Pilani Goa"
+    },
+    {
+      "id": "ai-career-copilot",
+      "name": "AI Career Copilot",
+      "type": "project",
+      "notes": "AI-powered portfolio platform with conversational interface, RAG, and knowledge graph"
+    },
+    {
+      "id": "transformer-research-companion",
+      "name": "Transformer Research Companion",
+      "type": "project",
+      "notes": "Interactive explanations of transformer architectures for structured learning"
+    },
+    {
+      "id": "stock-forecasting-system",
+      "name": "Stock Forecasting System",
+      "type": "project",
+      "notes": "ML project for stock price prediction using time series and historical market data"
+    },
+    {
+      "id": "causal-uplift-modeling",
+      "name": "Causal Uplift Modeling",
+      "type": "project",
+      "notes": "Project exploring treatment effects and uplift modeling using causal inference"
+    },
+    {
+      "id": "retrieval-augmented-generation",
+      "name": "Retrieval-Augmented Generation (RAG)",
+      "type": "skill",
+      "notes": "Grounding LLM responses in retrieved knowledge rather than model memory"
+    },
+    {
+      "id": "llm-integration",
+      "name": "Large Language Model Integration",
+      "type": "skill",
+      "notes": "Integrating LLM providers into application pipelines"
+    },
+    {
+      "id": "prompt-engineering",
+      "name": "Prompt Engineering",
+      "type": "skill",
+      "notes": "Designing system and user prompts for reliable LLM behaviour"
+    },
+    {
+      "id": "conversational-ai-design",
+      "name": "Conversational AI Design",
+      "type": "skill",
+      "notes": "Designing multi-turn conversational AI experiences"
+    },
+    {
+      "id": "ai-system-architecture",
+      "name": "AI System Architecture",
+      "type": "skill",
+      "notes": "Designing layered end-to-end AI systems"
+    },
+    {
+      "id": "semantic-search",
+      "name": "Semantic Search",
+      "type": "skill",
+      "notes": "Vector similarity search for finding semantically related content"
+    },
+    {
+      "id": "vector-embeddings",
+      "name": "Vector Embeddings",
+      "type": "skill",
+      "notes": "Converting text into dense vector representations for retrieval"
+    },
+    {
+      "id": "hybrid-retrieval",
+      "name": "Hybrid Retrieval Systems",
+      "type": "skill",
+      "notes": "Combining direct lookup, semantic search, and graph traversal"
+    },
+    {
+      "id": "knowledge-based-qa",
+      "name": "Knowledge-Based Question Answering",
+      "type": "skill",
+      "notes": "Answering questions grounded in structured knowledge sources"
+    },
+    {
+      "id": "frontend-development",
+      "name": "Frontend Development",
+      "type": "skill",
+      "notes": "Building web UIs with modern frameworks"
+    },
+    {
+      "id": "backend-development",
+      "name": "Backend Development",
+      "type": "skill",
+      "notes": "Building server-side APIs and data pipelines"
+    },
+    {
+      "id": "api-design",
+      "name": "API Design",
+      "type": "skill",
+      "notes": "Designing RESTful API interfaces"
+    },
+    {
+      "id": "system-integration",
+      "name": "System Integration",
+      "type": "skill",
+      "notes": "Connecting multiple services into a cohesive product"
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "type": "skill",
+      "notes": "Building predictive models and ML pipelines"
+    },
+    {
+      "id": "deep-learning",
+      "name": "Deep Learning",
+      "type": "skill",
+      "notes": "Neural network architectures and training"
+    },
+    {
+      "id": "time-series-analysis",
+      "name": "Time Series Analysis",
+      "type": "skill",
+      "notes": "Analysing sequential temporal data for forecasting"
+    },
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "type": "skill",
+      "notes": "Estimating treatment effects and causal relationships from data"
+    },
+    {
+      "id": "knowledge-graph-design",
+      "name": "Knowledge Graph Design",
+      "type": "skill",
+      "notes": "Representing entities and their relationships as a graph"
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "type": "technology",
+      "notes": "Full-stack React framework used for the portfolio frontend"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "type": "technology",
+      "notes": "UI component library"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "type": "technology",
+      "notes": "Typed superset of JavaScript"
+    },
+    {
+      "id": "tailwind-css",
+      "name": "Tailwind CSS",
+      "type": "technology",
+      "notes": "Utility-first CSS framework"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "type": "technology",
+      "notes": "Managed backend platform providing PostgreSQL and vector storage"
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "type": "technology",
+      "notes": "Relational database"
+    },
+    {
+      "id": "pgvector",
+      "name": "pgvector",
+      "type": "technology",
+      "notes": "PostgreSQL extension for vector similarity search"
+    },
+    {
+      "id": "groq-api",
+      "name": "Groq API",
+      "type": "technology",
+      "notes": "LLM inference API; uses Llama 3.3 70B model"
+    },
+    {
+      "id": "gemini-api",
+      "name": "Gemini API",
+      "type": "technology",
+      "notes": "Google Gemini 2.5 Flash LLM provider"
+    },
+    {
+      "id": "xenova-transformers",
+      "name": "Xenova Transformers",
+      "type": "technology",
+      "notes": "Used for generating BGE-Small embeddings in the browser/Node"
+    },
+    {
+      "id": "bge-small",
+      "name": "BGE Small (bge-small-en-v1.5)",
+      "type": "technology",
+      "notes": "Embedding model used for semantic search"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "type": "technology",
+      "notes": "Deployment platform for the portfolio application"
+    },
+    {
+      "id": "github-actions",
+      "name": "GitHub Actions",
+      "type": "technology",
+      "notes": "CI/CD pipeline"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "type": "technology",
+      "notes": "Version control"
+    },
+    {
+      "id": "bits-pilani-goa",
+      "name": "BITS Pilani Goa Campus",
+      "type": "education",
+      "notes": "B.E. Mathematics & Computing, expected graduation 2028"
+    },
+    {
+      "id": "caarya-innovative",
+      "name": "Caarya Innovative",
+      "type": "organization",
+      "notes": "Industry partner for BITS Pilani Practice School-I internship"
+    },
+    {
+      "id": "dept-math-computing",
+      "name": "Department of Mathematics and Computing, BITS Pilani Goa",
+      "type": "organization",
+      "notes": "Academic department; Vismay served as Secretary"
+    },
+    {
+      "id": "developers-society",
+      "name": "Developers' Society, BITS Goa",
+      "type": "organization",
+      "notes": "Technical club; Vismay contributed as Core AI/ML Developer"
+    },
+    {
+      "id": "abhiigyaan",
+      "name": "Abhiigyaan",
+      "type": "organization",
+      "notes": "Volunteering initiative; Vismay served as Mathematics Instructor"
+    },
+    {
+      "id": "peer-mentorship-program",
+      "name": "Peer Mentorship Program, BITS Pilani Goa",
+      "type": "organization",
+      "notes": "Campus mentorship program; Vismay served as Mentor"
+    },
+    {
+      "id": "practice-school-internship",
+      "name": "Practice School Intern at Caarya Innovative",
+      "type": "experience",
+      "notes": "BITS Pilani Practice School-I program; ongoing; covers AI applications, product development, software engineering"
+    },
+    {
+      "id": "secretary-dept-math-computing",
+      "name": "Secretary \u2014 Department of Mathematics and Computing",
+      "type": "extracurricular",
+      "notes": "Leadership role; departmental activities, student engagement, coordination"
+    },
+    {
+      "id": "core-aiml-developer",
+      "name": "Core AI/ML Developer \u2014 Developers' Society",
+      "type": "extracurricular",
+      "notes": "Technical role; AI/ML initiatives and peer collaboration"
+    },
+    {
+      "id": "volunteer-math-instructor",
+      "name": "Volunteer Mathematics Instructor \u2014 Abhiigyaan",
+      "type": "extracurricular",
+      "notes": "Volunteering; teaching mathematics to students"
+    },
+    {
+      "id": "peer-mentor",
+      "name": "Peer Mentorship Program Mentor",
+      "type": "extracurricular",
+      "notes": "Mentoring fellow students through academic and campus journey"
+    },
+    {
+      "id": "hackathon-2nd-place",
+      "name": "2nd Place \u2014 Training Without Gradients Hackathon",
+      "type": "achievement",
+      "notes": "Competitive achievement at BITS Pilani Goa; demonstrated technical creativity and teamwork"
+    },
+    {
+      "id": "goal-ml-dl-foundations",
+      "name": "Build Strong ML/DL Foundations",
+      "type": "goal",
+      "notes": "Short-term goal: build strong foundations in Machine Learning and Deep Learning"
+    },
+    {
+      "id": "goal-research-engineering-skills",
+      "name": "Develop Research and Engineering Skills",
+      "type": "goal",
+      "notes": "Short-term goal"
+    },
+    {
+      "id": "goal-impactful-ai-projects",
+      "name": "Work on Impactful AI Projects",
+      "type": "goal",
+      "notes": "Short-term goal"
+    },
+    {
+      "id": "goal-advanced-ai-systems",
+      "name": "Contribute to Advanced AI Systems",
+      "type": "goal",
+      "notes": "Medium-term goal"
+    },
+    {
+      "id": "goal-research-environments",
+      "name": "Gain Experience in Research-Driven Environments",
+      "type": "goal",
+      "notes": "Medium-term goal"
+    },
+    {
+      "id": "goal-intelligent-systems",
+      "name": "Build Intelligent Systems with Research and Practical Impact",
+      "type": "goal",
+      "notes": "Long-term goal"
+    },
+    {
+      "id": "interest-large-language-models",
+      "name": "Large Language Models",
+      "type": "interest",
+      "notes": "Active learning and project focus area"
+    },
+    {
+      "id": "interest-ai-systems",
+      "name": "AI Systems",
+      "type": "interest",
+      "notes": "Professional and research interest"
+    },
+    {
+      "id": "interest-transformers",
+      "name": "Transformer Architectures",
+      "type": "interest",
+      "notes": "Growth area and project focus"
+    },
+    {
+      "id": "interest-rag",
+      "name": "Retrieval-Augmented Generation (Interest)",
+      "type": "interest",
+      "notes": "Growth area listed in current focus"
+    },
+    {
+      "id": "interest-ai-product-design",
+      "name": "AI Product Design",
+      "type": "interest",
+      "notes": "Growth area listed in current focus"
+    },
+    {
+      "id": "interest-research-oriented-dev",
+      "name": "Research-Oriented Development",
+      "type": "interest",
+      "notes": "Growth area; bridge between research and engineering"
+    },
+    {
+      "id": "strength-rapid-learning",
+      "name": "Rapid Learning",
+      "type": "strength",
+      "notes": "Technical strength"
+    },
+    {
+      "id": "strength-research-thinking",
+      "name": "Research-Oriented Thinking",
+      "type": "strength",
+      "notes": "Technical strength"
+    },
+    {
+      "id": "strength-system-design",
+      "name": "System Design",
+      "type": "strength",
+      "notes": "Technical strength"
+    },
+    {
+      "id": "strength-problem-solving",
+      "name": "Problem Solving",
+      "type": "strength",
+      "notes": "Technical strength"
+    },
+    {
+      "id": "strength-curiosity",
+      "name": "Curiosity",
+      "type": "strength",
+      "notes": "Personal strength"
+    },
+    {
+      "id": "strength-persistence",
+      "name": "Persistence",
+      "type": "strength",
+      "notes": "Personal strength"
+    },
+    {
+      "id": "strength-self-learning",
+      "name": "Self-Learning",
+      "type": "strength",
+      "notes": "Personal strength"
+    },
+    {
+      "id": "strength-long-term-thinking",
+      "name": "Long-Term Thinking",
+      "type": "strength",
+      "notes": "Personal strength"
+    },
+    {
+      "id": "philosophy-learn-through-understanding",
+      "name": "Learn Through Understanding",
+      "type": "philosophy",
+      "notes": "Prefer understanding why before memorizing"
+    },
+    {
+      "id": "philosophy-learn-through-building",
+      "name": "Learn Through Building",
+      "type": "philosophy",
+      "notes": "Projects as primary learning method"
+    },
+    {
+      "id": "philosophy-focus-on-fundamentals",
+      "name": "Focus on Fundamentals",
+      "type": "philosophy",
+      "notes": "Strong fundamentals make advanced concepts easier"
+    },
+    {
+      "id": "philosophy-continuous-improvement",
+      "name": "Continuous Improvement",
+      "type": "philosophy",
+      "notes": "Small improvements compound over time"
+    },
+    {
+      "id": "concept-knowledge-graph",
+      "name": "Knowledge Graph",
+      "type": "concept",
+      "notes": "Graph connecting entities such as projects, skills, technologies, and experiences"
+    },
+    {
+      "id": "concept-conversation-management",
+      "name": "Conversation Management",
+      "type": "concept",
+      "notes": "Session-level context tracking across multi-turn interactions"
+    },
+    {
+      "id": "concept-documentation-first",
+      "name": "Documentation-First Architecture",
+      "type": "concept",
+      "notes": "Documentation as the primary source of truth for portfolio knowledge"
+    },
+    {
+      "id": "concept-streaming-responses",
+      "name": "Streaming Responses",
+      "type": "concept",
+      "notes": "Token-by-token LLM response delivery"
+    },
+    {
+      "id": "concept-uplift-modeling",
+      "name": "Uplift Modeling",
+      "type": "concept",
+      "notes": "Estimating how interventions influence outcomes"
+    },
+    {
+      "id": "concept-self-attention",
+      "name": "Self-Attention",
+      "type": "concept",
+      "notes": "Core mechanism of transformer architectures"
+    },
+    {
+      "id": "concept-positional-encoding",
+      "name": "Positional Encoding",
+      "type": "concept",
+      "notes": "Transformer component for encoding token position"
+    },
+    {
+      "id": "concept-multi-head-attention",
+      "name": "Multi-Head Attention",
+      "type": "concept",
+      "notes": "Transformer component enabling parallel attention"
+    },
+    {
+      "id": "focus-ai-applications",
+      "name": "AI Applications",
+      "type": "focus_area",
+      "notes": "Practical application of AI in products; area of involvement in internship"
+    },
+    {
+      "id": "focus-product-development",
+      "name": "Product Development",
+      "type": "focus_area",
+      "notes": "Building software products; area of involvement in internship"
+    },
+    {
+      "id": "focus-software-engineering",
+      "name": "Software Engineering",
+      "type": "focus_area",
+      "notes": "Core engineering practice"
+    }
+  ]
+}

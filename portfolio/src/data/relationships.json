@@ -1,0 +1,595 @@
+{
+  "relationships": [
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "bits-pilani-goa",
+      "relationship": "STUDIED_AT",
+      "notes": "B.E. Mathematics & Computing, expected 2028"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "practice-school-internship",
+      "relationship": "WORKED_AT",
+      "notes": "Ongoing BITS Pilani Practice School-I program at Caarya Innovative"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "ai-career-copilot",
+      "relationship": "DEVELOPED",
+      "notes": "Primary showcase project"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "transformer-research-companion",
+      "relationship": "DEVELOPED",
+      "notes": "Project to improve understanding of transformer architectures"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "stock-forecasting-system",
+      "relationship": "DEVELOPED",
+      "notes": "ML time-series forecasting project"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "causal-uplift-modeling",
+      "relationship": "DEVELOPED",
+      "notes": "Causal inference and uplift modeling project"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "secretary-dept-math-computing",
+      "relationship": "PARTICIPATED_IN",
+      "notes": "Served as Secretary"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "core-aiml-developer",
+      "relationship": "PARTICIPATED_IN",
+      "notes": "Core AI/ML Developer role"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "volunteer-math-instructor",
+      "relationship": "PARTICIPATED_IN",
+      "notes": "Volunteer Mathematics Instructor"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "peer-mentor",
+      "relationship": "PARTICIPATED_IN",
+      "notes": "Peer Mentorship Program Mentor"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "hackathon-2nd-place",
+      "relationship": "ACHIEVED",
+      "notes": "2nd place, Training Without Gradients Hackathon"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "PURSUES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "goal-research-engineering-skills",
+      "relationship": "PURSUES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "goal-impactful-ai-projects",
+      "relationship": "PURSUES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "goal-advanced-ai-systems",
+      "relationship": "PURSUES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "goal-research-environments",
+      "relationship": "PURSUES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "goal-intelligent-systems",
+      "relationship": "PURSUES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "interest-large-language-models",
+      "relationship": "INTERESTED_IN"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "interest-ai-systems",
+      "relationship": "INTERESTED_IN"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "interest-transformers",
+      "relationship": "INTERESTED_IN"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "interest-rag",
+      "relationship": "INTERESTED_IN"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "interest-ai-product-design",
+      "relationship": "INTERESTED_IN"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "interest-research-oriented-dev",
+      "relationship": "INTERESTED_IN"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "strength-rapid-learning",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "strength-research-thinking",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "strength-system-design",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "strength-problem-solving",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "strength-curiosity",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "strength-persistence",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "strength-self-learning",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "strength-long-term-thinking",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "philosophy-learn-through-understanding",
+      "relationship": "ALIGNS_WITH"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "philosophy-learn-through-building",
+      "relationship": "ALIGNS_WITH"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "philosophy-focus-on-fundamentals",
+      "relationship": "ALIGNS_WITH"
+    },
+    {
+      "source": "vismay-vinayak-shanbhag",
+      "target": "philosophy-continuous-improvement",
+      "relationship": "ALIGNS_WITH"
+    },
+    {
+      "source": "practice-school-internship",
+      "target": "caarya-innovative",
+      "relationship": "WORKED_AT"
+    },
+    {
+      "source": "practice-school-internship",
+      "target": "focus-ai-applications",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "practice-school-internship",
+      "target": "focus-product-development",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "practice-school-internship",
+      "target": "focus-software-engineering",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "secretary-dept-math-computing",
+      "target": "dept-math-computing",
+      "relationship": "MEMBER_OF"
+    },
+    {
+      "source": "core-aiml-developer",
+      "target": "developers-society",
+      "relationship": "MEMBER_OF"
+    },
+    {
+      "source": "volunteer-math-instructor",
+      "target": "abhiigyaan",
+      "relationship": "PARTICIPATED_IN"
+    },
+    {
+      "source": "peer-mentor",
+      "target": "peer-mentorship-program",
+      "relationship": "PARTICIPATED_IN"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "retrieval-augmented-generation",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "llm-integration",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "prompt-engineering",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "conversational-ai-design",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "ai-system-architecture",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "semantic-search",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "vector-embeddings",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "hybrid-retrieval",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "knowledge-based-qa",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "frontend-development",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "backend-development",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "api-design",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "system-integration",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "knowledge-graph-design",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "nextjs",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "react",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "typescript",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "tailwind-css",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "supabase",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "postgresql",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "pgvector",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "groq-api",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "gemini-api",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "xenova-transformers",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "vercel",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "github-actions",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "git",
+      "relationship": "BUILT_WITH"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "concept-knowledge-graph",
+      "relationship": "USES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "concept-conversation-management",
+      "relationship": "USES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "concept-documentation-first",
+      "relationship": "USES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "concept-streaming-responses",
+      "relationship": "USES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "bge-small",
+      "relationship": "USES"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "goal-impactful-ai-projects",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "goal-advanced-ai-systems",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "ai-career-copilot",
+      "target": "goal-intelligent-systems",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "transformer-research-companion",
+      "target": "deep-learning",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "transformer-research-companion",
+      "target": "interest-transformers",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "transformer-research-companion",
+      "target": "concept-self-attention",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "transformer-research-companion",
+      "target": "concept-positional-encoding",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "transformer-research-companion",
+      "target": "concept-multi-head-attention",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "transformer-research-companion",
+      "target": "interest-large-language-models",
+      "relationship": "RELATED_TO"
+    },
+    {
+      "source": "transformer-research-companion",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "stock-forecasting-system",
+      "target": "machine-learning",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "stock-forecasting-system",
+      "target": "time-series-analysis",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "stock-forecasting-system",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "causal-uplift-modeling",
+      "target": "machine-learning",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "causal-uplift-modeling",
+      "target": "causal-inference",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "causal-uplift-modeling",
+      "target": "concept-uplift-modeling",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "causal-uplift-modeling",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "xenova-transformers",
+      "target": "bge-small",
+      "relationship": "USES"
+    },
+    {
+      "source": "pgvector",
+      "target": "postgresql",
+      "relationship": "USES"
+    },
+    {
+      "source": "supabase",
+      "target": "postgresql",
+      "relationship": "USES"
+    },
+    {
+      "source": "supabase",
+      "target": "pgvector",
+      "relationship": "USES"
+    },
+    {
+      "source": "machine-learning",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "deep-learning",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "retrieval-augmented-generation",
+      "target": "goal-advanced-ai-systems",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "ai-system-architecture",
+      "target": "goal-advanced-ai-systems",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "knowledge-graph-design",
+      "target": "goal-intelligent-systems",
+      "relationship": "SUPPORTS"
+    },
+    {
+      "source": "philosophy-learn-through-building",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "ALIGNS_WITH"
+    },
+    {
+      "source": "philosophy-focus-on-fundamentals",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "ALIGNS_WITH"
+    },
+    {
+      "source": "philosophy-continuous-improvement",
+      "target": "goal-research-engineering-skills",
+      "relationship": "ALIGNS_WITH"
+    },
+    {
+      "source": "philosophy-learn-through-building",
+      "target": "ai-career-copilot",
+      "relationship": "INFLUENCED_BY"
+    },
+    {
+      "source": "strength-research-thinking",
+      "target": "goal-research-environments",
+      "relationship": "CONTRIBUTES_TO"
+    },
+    {
+      "source": "strength-system-design",
+      "target": "ai-career-copilot",
+      "relationship": "CONTRIBUTES_TO"
+    },
+    {
+      "source": "strength-rapid-learning",
+      "target": "goal-ml-dl-foundations",
+      "relationship": "CONTRIBUTES_TO"
+    },
+    {
+      "source": "core-aiml-developer",
+      "target": "machine-learning",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "core-aiml-developer",
+      "target": "focus-ai-applications",
+      "relationship": "FOCUSED_ON"
+    },
+    {
+      "source": "hackathon-2nd-place",
+      "target": "strength-problem-solving",
+      "relationship": "DEMONSTRATES"
+    },
+    {
+      "source": "interest-large-language-models",
+      "target": "llm-integration",
+      "relationship": "RELATED_TO"
+    },
+    {
+      "source": "interest-transformers",
+      "target": "deep-learning",
+      "relationship": "RELATED_TO"
+    },
+    {
+      "source": "interest-rag",
+      "target": "retrieval-augmented-generation",
+      "relationship": "RELATED_TO"
+    },
+    {
+      "source": "interest-ai-systems",
+      "target": "ai-system-architecture",
+      "relationship": "RELATED_TO"
+    },
+    {
+      "source": "interest-ai-product-design",
+      "target": "conversational-ai-design",
+      "relationship": "RELATED_TO"
+    }
+  ]
+}

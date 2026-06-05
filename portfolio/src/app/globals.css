@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'DM Serif Display', serif;
+  --font-sans: 'DM Sans', sans-serif;
+
+  /* Surface tokens — deeper, richer blues */
+  --surface-base: #05071A;
+  --surface-mid: #080C20;
+  --surface-card: #0A0E24;
+  --surface-elevated: #0D1230;
+  --surface-glass: rgba(10, 14, 36, 0.8);
+
+  /* Border tokens — more visible */
+  --border-subtle: #1C2548;
+  --border-mid: #263060;
+  --border-bright: #3B4A80;
+  --border-active: #4F6FFF;
+
+  /* Text tokens */
+  --text-primary: #F0F4FF;
+  --text-secondary: #94A3C8;
+  --text-muted: #4A5680;
+  --text-dim: #2E3A60;
+
+  /* Accent colors — vibrant */
+  --accent-blue: #4F8CFF;
+  --accent-indigo: #6366F1;
+  --accent-violet: #7C3AED;
+  --accent-purple: #9333EA;
+  --accent-cyan: #06B6D4;
+  --accent-teal: #14B8A6;
+
+  /* Gradient presets */
+  --grad-primary: linear-gradient(135deg, #4F8CFF, #6366F1, #7C3AED);
+  --grad-secondary: linear-gradient(135deg, #06B6D4, #4F8CFF, #6366F1);
+  --grad-card: linear-gradient(145deg, #0D1230 0%, #080C20 100%);
+  --grad-hero-left: linear-gradient(160deg, #0A1040 0%, #07082A 50%, #0A0520 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background: var(--surface-base);
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+}
+
+::selection {
+  background: rgba(79, 140, 255, 0.25);
+  color: #F0F4FF;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--surface-base); }
+::-webkit-scrollbar-thumb { background: #1C2548; border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: #263060; }
+
+/* ── Primary gradient button ─────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 14px;
+  border: 1px solid rgba(79, 140, 255, 0.4);
+  background: linear-gradient(135deg, rgba(30, 50, 120, 0.9), rgba(79, 50, 160, 0.6));
+  color: #C8D8FF;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.34, 1.2, 0.64, 1);
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(79, 140, 255, 0.15), rgba(124, 58, 237, 0.1));
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+  border-color: rgba(99, 102, 241, 0.7);
+  background: linear-gradient(135deg, rgba(40, 65, 160, 0.95), rgba(100, 60, 200, 0.75));
+  color: #E0ECFF;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(79, 140, 255, 0.25), 0 0 0 1px rgba(99, 102, 241, 0.3);
+}
+
+.btn-primary:hover::before {
+  opacity: 1;
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* ── Glass button ─────────────────────────────────────────────── */
+.btn-glass {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 14px;
+  border: 1px solid rgba(79, 140, 255, 0.25);
+  background: rgba(12, 18, 48, 0.7);
+  color: #94A3C8;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: all 0.22s ease;
+  text-decoration: none;
+}
+
+.btn-glass:hover {
+  border-color: rgba(99, 102, 241, 0.5);
+  background: rgba(20, 28, 72, 0.85);
+  color: #C8D4FF;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px rgba(79, 140, 255, 0.15);
+}
+
+.btn-glass:active { transform: translateY(0); }
+
+/* ── Solid gradient button (CTA start conversation) ──────────── */
+.btn-gradient {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 32px;
+  border-radius: 14px;
+  border: 1px solid rgba(99, 102, 241, 0.5);
+  background: linear-gradient(135deg, #3B5BDB, #6B46C1, #7C3AED);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.34, 1.2, 0.64, 1);
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.35), inset 0 1px 0 rgba(255,255,255,0.1);
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #4C6EF5, #7C3AED, #9333EA);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 36px rgba(99, 102, 241, 0.5), 0 0 0 1px rgba(147,51,234,0.4);
+}
+
+.btn-gradient:active { transform: translateY(0); }
+
+/* ── Ghost button ─────────────────────────────────────────────── */
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 14px;
+  border: 1px solid #1C2548;
+  background: rgba(8, 12, 32, 0.9);
+  color: #4A5680;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-ghost:hover {
+  border-color: #263060;
+  color: #64748B;
+  transform: translateY(-1px);
+}
+
+/* ── Navbar gradient button ───────────────────────────────────── */
+.btn-nav-ai {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(99, 102, 241, 0.4);
+  background: linear-gradient(135deg, #3B5BDB, #7C3AED);
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 12px rgba(99, 102, 241, 0.3);
+}
+
+.btn-nav-ai:hover {
+  background: linear-gradient(135deg, #4C6EF5, #9333EA);
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.45);
+  transform: translateY(-1px);
+}
+
+/* ── Premium card ─────────────────────────────────────────────── */
+.card-premium {
+  background: var(--grad-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 24px;
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-premium:hover {
+  border-color: var(--border-mid);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 48px rgba(79, 140, 255, 0.1);
+}
+
+/* ── Text utilities ───────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #F0F4FF 20%, #A0BCFF 60%, #7B9FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-blue {
+  background: linear-gradient(135deg, #60A5FA, #818CF8, #A78BFA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-cyan {
+  background: linear-gradient(135deg, #22D3EE, #60A5FA, #818CF8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Glow divider ─────────────────────────────────────────────── */
+.divider-glow {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(79, 140, 255, 0.4), rgba(99, 102, 241, 0.4), transparent);
+}
+
+/* ── Section label ────────────────────────────────────────────── */
+.section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--accent-blue);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-label::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-indigo));
+  border-radius: 1px;
+}
+
+/* ── Animations ───────────────────────────────────────────────── */
+@keyframes fadeUp {
+  0%   { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes orbDrift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%       { transform: translate(24px, -32px) scale(1.04); }
+  66%       { transform: translate(-18px, 18px) scale(0.97); }
+}
+
+@keyframes modalIn {
+  0%   { opacity: 0; transform: scale(0.96) translateY(8px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 0.5; }
+  50%       { opacity: 1; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.3); }
+  50%       { box-shadow: 0 0 40px rgba(99, 102, 241, 0.6); }
+}
