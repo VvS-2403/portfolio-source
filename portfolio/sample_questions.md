@@ -6,13 +6,13 @@ These are the core testing questions designed to demonstrate the AI Career Copil
    > "What is your current CGPA and when do you graduate?"
    *Demonstrates instant factual lookup without hallucination.*
 
-2. **The Explanation / Project Query**
-   > "Tell me about the AI Career Copilot. How does it work without a vector database?"
-   *Demonstrates deep grounding and architectural knowledge.*
+2. **Go through the AI career project and ask AI"
+    > Instant explanations  about the project
 
-3. **The Contextual Follow-up**
-   > "What specific technologies did you use to build it?"
-   *Demonstrates session-awareness and memory across chat history.*
+3. **The Explanation / Project Query/Contextual Following**
+   > What are the front end and backend sills used in this project
+   *Demonstrates deep grounding and architectural knowledge, show context conversation.*
+
 
 4. **The Experience Query**
    > "Do you have any industry experience?"
@@ -21,7 +21,12 @@ These are the core testing questions designed to demonstrate the AI Career Copil
 5. **The Extracurriculars / Soft Skills Query**
    > "What do you do outside of academics?"
    *Surfaces leadership, mentoring, and volunteering background.*
+   
+6.**Sticking to the point**
+> "Explain how to make Pancakes"
+> Handles unrelated queries very well
 
-6. **The Rate Limit Demonstration**
-   > "How can I get in touch with you?" (Or asking beyond the 10-message limit)
-   *Demonstrates elegant fallback mechanisms and contact redirection when limits are reached.*
+7."Where do you see yourself in 10 years"
+> Handles variety of questions with the known data itself
+
+
